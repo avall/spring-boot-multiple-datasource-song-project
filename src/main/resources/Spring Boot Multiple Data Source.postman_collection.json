@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "b91e3c29-baa9-421c-969f-2e34df0d77fe",
+		"name": "Spring Boot Multiple Data Source",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "add song",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"song\": \"Do I Need To Know?\",\r\n    \"content\": \"tryin' to see if you can handle this task, prolly give this task a panic attack\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080"
+				}
+			},
+			"response": []
+		}
+	]
+}
